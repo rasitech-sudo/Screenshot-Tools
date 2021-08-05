@@ -191,3 +191,10 @@ button span:before, button span:after
   box-shadow: 0 10px 20px -5px rgba(255, 117, 117, 0.86);
   z-index: 125;
 }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
