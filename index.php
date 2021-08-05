@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Search Form With Animated Search Button</title>
+  <title>Screenshot Tools - Rasi Tech</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito'><link rel="stylesheet" href="./style.css">
 
 </head>
