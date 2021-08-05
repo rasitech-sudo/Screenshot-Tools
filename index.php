@@ -9,7 +9,7 @@
 <body>
 <!-- partial:index.partial.html -->
 <div id="cover">
-  <form method="post" action="/screenshot.php">
+  <form method="post" action="">
     <div class="tb">
       <div class="td"><input type="text" id="url" name="url" placeholder="https://www.google.com" required></div>
       <div class="td" id="s-cover">
