@@ -17,6 +17,6 @@ function random_string($length) {
 $img = '/' . random_string(50) . '.png';
 file_put_contents($img, file_get_contents($url));
 header("location: $img");
+} else {
+    header("location:https://rasi-tech.herokuapp.com/");
 }
-
->
