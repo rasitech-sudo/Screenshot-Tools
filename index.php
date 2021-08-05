@@ -11,7 +11,7 @@
 <div id="cover">
   <form method="post" action="/screenshot.php">
     <div class="tb">
-      <div class="td"><input type="text" placeholder="https://www.google.com" required></div>
+      <div class="td"><input type="text" id="url" placeholder="https://www.google.com" required></div>
       <div class="td" id="s-cover">
         <button type="submit">
           <div id="s-circle"></div>
