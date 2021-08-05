@@ -21,7 +21,22 @@
     </div>
   </form>
 </div>
+<?php
+$a = $_POST['url'];
+$url = "https://api.apiflash.com/v1/urltoimage?access_key=c2b0969708484176814e87896cc231f6&full_page=true&url=$a";
+if (!empty($a)) {
+// Read image path, convert to base64 encoding
+$imageData = base64_encode(file_get_contents($url));
 
+// Format the image SRC:  data:{mime};base64,{data};
+$src = 'data: '.mime_content_type($url).';base64,'.$imageData;
+
+// Echo out a sample image
+echo '<img src="' . $src . '">';
+} else {
+    header("location:https://rasi-tech.herokuapp.com/");
+}
+?>
 <!-- <a href="https://www.youtube.com/channel/UC7hSS_eujjZOEQrjsda76gA/videos" target="_blank" id="ytd-url">My YouTube Channel</a> -->
 <!-- partial -->
   
