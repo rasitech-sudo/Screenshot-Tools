@@ -33,8 +33,6 @@ $src = 'data: '.mime_content_type($url).';base64,'.$imageData;
 
 // Echo out a sample image
 echo '<img src="' . $src . '">';
-} else {
-    header("location:https://rasi-tech.herokuapp.com/");
 }
 ?>
 <!-- <a href="https://www.youtube.com/channel/UC7hSS_eujjZOEQrjsda76gA/videos" target="_blank" id="ytd-url">My YouTube Channel</a> -->
