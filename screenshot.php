@@ -9,7 +9,8 @@ $imageData = base64_encode(file_get_contents($url));
 $src = 'data: '.mime_content_type($url).';base64,'.$imageData;
 
 // Echo out a sample image
-echo '<img src="' . $src . '">';
+    header('Content-Type: image/jpeg');
+    echo $src;
 } else {
     header("location:https://rasi-tech.herokuapp.com/");
 }
